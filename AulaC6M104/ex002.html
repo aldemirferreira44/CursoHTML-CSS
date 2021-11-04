@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>Testando Carga e Imagens</h1>
+    </div>
+
+    <hr>
+    <fieldset>
+        <p>Imagem1</p>
+        <img src="logo400.png" alt="logoBasketball">
+        <p>Imagem2</p>
+        <img src="paisagem1500.jpg.jpg" alt="paisagem">
+        <div id='p' onmouseover="entrar()">Ola</div>
+        <div id='d' onmouseleave="sair()"></div>
+        <p>Yes baby, thankyou</p>
+    </fieldset>
+
+    <script>
+        function entrar() {
+            var p1 = window.document.getElementById('p')[1]
+            p1.document.write = 'entrou'
+        }
+        function sair() {
+            var p2 = document.getElementById('d')
+            p2.style.color = 'chartreuse';
+            p2.style.background = 'black';
+        }
+
+    </script>
+</body>
+
+</html>

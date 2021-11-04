@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: burlywood;
+
+}
+
+div#main {
+    margin: 10% 20% 10% 20%;
+
+
+}
+
+a#a1 {
+    width: 300;
+    height: 200;
+}
+
+a#a2 {
+    width: 300;
+    height: 200;
+}
+
+a#a3 {
+    width: 300;
+    height: 200;
+}
+
+a#a4 {
+    width: 300;
+    height: 200;
+}

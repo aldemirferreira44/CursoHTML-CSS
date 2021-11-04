@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compatibilade de Imagens</title>
+</head>
+
+<body>
+    <div>
+        <h1>Imagens Dinamicas</h1>
+        <p>Tente abrir este site em dispositivos diferentes</p>
+        <picture>
+            <source media="(max-width: 750px )" srcset="imagens/c11_2.png" type="image/png">
+            <source media="(max-width: 1000px)" srcset="imagens/c11_1.png" type="image/png">
+            <img src="imagens/c11.png" alt="foto grande">
+        </picture>
+    </div>
+
+    <div>
+        <h1>Audio</h1>
+        <p>Aprendendo a adicionar audios aos sites</p>
+        <audio src="midia/Space Age Hustle - Squadda B.mp3" controls>Ouça o audio</audio>
+    </div>
+</body>
+
+</html>
